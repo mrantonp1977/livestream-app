@@ -25,7 +25,9 @@ const Actions = async () => {
           >
             <Link href={`/u/${user.username}`}>
               <Clapperboard className="h-5 w-5 lg:mr-2" />
-              <span className="hidden lg:block">Dashboard</span>
+              <span className="hidden lg:block">
+                Dashboard
+              </span>
             </Link>
           </Button>
           <UserButton afterSignOutUrl="/" />
