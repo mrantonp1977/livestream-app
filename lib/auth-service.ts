@@ -27,6 +27,7 @@ export const getSelfByUsername = async (username: string) => {
     throw new Error("Unauthorized");
   }
 
+
   const user = await db.user.findUnique({
     where: { username }
   });
